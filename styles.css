@@ -6,3 +6,62 @@
     font-family: arial;
     /* color: white; */
    }
+
+#container{
+    padding: 10px;
+
+}
+
+#head{
+
+}
+
+#globe{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+
+}
+
+#head_h1{
+    display: inline-block;
+
+}
+
+.net{
+    color: cornflowerblue;
+
+}
+
+#head_h2{
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+#sidebar{
+    background-color: red;
+}
+
+#dns{
+    background-color: green;
+}
+
+#home{
+    width: 20px;
+    height: 20px;
+}
+
+#phone{
+    width: 20px;
+    height: 20px;
+}
+
+#clients{
+    background-color: blue;
+}
+
+#clients_img{
+    width: 100px;
+    height: 50px;
+}
