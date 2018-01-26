@@ -9,9 +9,10 @@
   <div id="container">
   	     <div id="head">
             <img src="images/globe.png" alt="Image of the globe" id="globe">
-            <h1 id="head_h1">The Inter<span class="net">net</span></h1>
+            <h1 id="head_h1">The Inter<span class="blue">net</span></h1>
             <h2 id="head_h2">The World Wide Web</h2>
-         </div>
+           </div>
+  <div id="background">
         <div id="sidebar">
             <div id="sidebar_1">
             <p id="sidebar_p">
@@ -31,18 +32,20 @@
                  </div>
         </div>
         <!-- end of sidebar -->
+    <div id="body">
         <div id="dns">
-            <h4 id="dns_h4">
+            <h4 id="dns_h4" class="h">
             <img src="images/home.png" alt="Picture of a house." id="home"> DNS</h4>
             <img src="images/phone.png" alt="Phone call icon." id="phone">
             <p id="dns_phone">
-                Mon-Fri 9 a.m. - 5 p.m. (EST)
-              <h3 id="dns_h3">855.967.3787</h3>
+                Mon-Fri 9 a.m. - 5 p.m. (EST)<br>
+              <span id="dns_s">855.967.3787</span><br>
                 international +1.617.963.0555
             </p>
         </div>
+    <!-- end of body header -->
         <div id="clients">
-            <h3 id="clients_h3">Clients and Servers</h3>
+            <h3 id="clients_h3" class="h">Clients and Servers</h3>
             <p id="clients_p">Computers connected to the <span class="net">Web</span>
              are called <span class="bold">clients</span> and <span class="bold">servers.</span></p>
              <ul id="clients_list">
@@ -58,8 +61,10 @@
                 </li>
              </ul>
              <img src="images/client_server.jpg" alt="image of a request response chart." id="clients_img">
+        </div>
+    <!-- end of client and servers -->
              <div id="what">
-                 <h3 id="what_h3">So What Actually Happens?</h3>
+                 <h3 id="what_h3" class="h">So What Actually Happens?</h3>
                     <ol id="what_list">
                         <li>The browser goes to the <span class="net">DNS server</span> and finds the real address of the <span class="net">server </span> 
                         that the website lives on.
@@ -67,7 +72,7 @@
                         <li>The browser sends an <span class"net">HTTP request </span>message to the server asking it to send a copy
                         of the website to the client.
                         </li>
-                        <li>If the server aprproves the client's request, the server sends the client a <span class"net">"200 OK" message</span>, which
+                        <li>If the server aprproves the client's request, the server sends the client a <span class="net">"200 OK" message</span>, which
                         means "Permission granted! Here you go!", and then starts sending the website's files to the browser
                         as a series of small chunks.
                         </li>
@@ -75,17 +80,20 @@
                         </li>
                     </ol>
              </div>
-                <div id="foot">
+   <!-- end of what -->
+             <div id="foot">
                     <img src="images/html.png" alt="html css javascrpt" id="foot_img">
-                    <h3 id="foot_h3">The Big 3 - HTML, CSS, JavaScript</h3>
-                    <p id="foot_p">While the server can process infomation in many different languages, the files that they
+                      <div id="footdiv"><h3 id="foot_h3" class="h">The Big 3 - HTML, CSS, JavaScript</h3>
+                         <p id="foot_p" class="p">While the server can process infomation in many different languages, the files that they
                         serve to the client are always going to be some combination of HTML, CSS, and JavaScript!
-                    </p>
-                    <p id="foot_p_2">Learn more about the Big 3 <a id="foot_a">here</a>!
-                    </p>
+                        </p>
+                        <p id="foot_p_2" class="p">Learn more about the Big 3 <a href="" id="foot_a" class="p">here</a>!
+                        </p>
+                        </div>                    
                 </div>
             </div>
         </div>
+    </div>
     </body>
 </html>
             

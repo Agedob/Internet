@@ -9,7 +9,11 @@
 
 #container{
     padding: 10px;
+    width: 970px;
+}
 
+#background{ 
+    background: linear-gradient(#e3e3e3, white)
 }
 
 #head{
@@ -17,25 +21,31 @@
 }
 
 #globe{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 10px;
     display: inline-block;
 
 }
 
 #head_h1{
     display: inline-block;
+    margin-top: 25px;
 
 }
 
-.net{
-    color: cornflowerblue;
+.blue{
+    color:#22649e;
+}
 
+.net{
+    color: rgb(0, 214, 214);
 }
 
 #head_h2{
     color: white;
-    background-color: cornflowerblue;
+    background: linear-gradient(#24659e,#4e80ab,#24659e);
     padding: 10px;
 }
 
@@ -44,15 +54,16 @@
     padding: 10px 0px;
     width: 140px;
     box-sizing: border-box;
-    font-size: 8pt;
+    font-size: 6pt;
     font-weight: bold;
 }
 
 #sidebar_1{
+    margin: 0px 10px;
     padding-bottom: 10px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: blueviolet;
+    border-bottom-color: black;
 
 }
 
@@ -61,12 +72,13 @@
 }
 
 #watch_v, #more_r, #sidebar_button{
-    width: 80%;
+    max-width: 120px;
+    min-width: 120px;
     color: white;
+    padding: 2px;
     border-radius: 5px;
-    box-sizing: border-box;
     font-size: 8pt;
-    padding: 0px 0px;
+    font-weight: bold;
     display: block;
     margin: 2px auto;
     background-color: blue;
@@ -86,10 +98,11 @@
     color: white;
     text-align: center;
     margin-top: 10px;
-    padding: 15px;
     background-image: url("images/ad_background.png");
     background-repeat: no-repeat;
     background-size: auto;
+    padding: 10px 5px;
+    box-sizing: border-box;
 }
 
 #ninja{
@@ -100,48 +113,106 @@
 
 #sidebar_button{
     background-color: cyan;
+}
 
+#sidebar_2_p{
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: normal;
 }
 
 /* end of sidebar */
 
-#dns{
+#body{
+    width: 800px;
     display: inline-block;
-    background-color: green;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
+#dns{
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.h{
+    display: inline-block;
+    color: cornflowerblue;
+}
 #home{
+    display: inline-block;
     width: 20px;
-    height: 20px;
 }
 
 #phone{
-    width: 20px;
-    height: 20px;
+    display: inline-block;
+    width: 40px;
+    margin-left: 500px;
+    margin-top: 5px;
 }
 
-#clients{
+#dns_phone{
     display: inline-block;
-    background-color: blue;
+    font-size: 6pt;
+    text-align: center;
+
+}
+#dns_s{
+    color: aqua;
+    font-size: 16pt;
+}
+
+/* end of body header */
+
+#clients, #what, #foot,{
+    display: inline-block;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px 15px;
+}
+
+#clients_h3, #clients_p, #what_h3{
+    margin-bottom: 5px;
+}
+
+#clients_list, #what_list{
+    padding-left: 30px;
 }
 
 #clients_img{
-    width: 100px;
-    height: 50px;
+    display: block;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
 }
-
-#what{
-    display: inline-block;
-    background-color: brown;
-}
+/* end of clients and servers and what */
 
 #foot{
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-bottom-width: 0px;
     display: inline-block;
-    background-color: chartreuse;
 }
 
+#footdiv{
+    display: inline-block;
+    width: 70%;
+}
+
+#foot_p, #foot_p_2, #foot_h3{
+    margin: 5px;
+}
+
+
 #foot_img{
-    width: 30px;
-    height: 30px;
+    display: inline-block;
+    height: 125px;
 
 }
